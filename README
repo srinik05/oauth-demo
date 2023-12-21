@@ -1,0 +1,13 @@
+1. Authorizartion server configuration:
+   https://console.cloud.google.com/welcome?_ga=2.134217678.-1550004659.1703092580&_gac=1.251913723.1703092580.CjwKCAiAvoqsBhB9EiwA9XTWGSOr-z442MIl4NZnNFHm22B7-D_dGNJ_mQZUOPSzAm00T8Hs0SefURoCiygQAvD_BwE&project=my-oauth-demo-408717
+
+   a) crate application
+   b) collect the client id and client secret  or download json
+
+2. Running application
+   a) mvn clean install
+   b) mvn clean spring-boot:run
+
+3. Open Browser
+   a) Type http://localhost:8080/protected
+   b) Enter the google credentials with valid user
